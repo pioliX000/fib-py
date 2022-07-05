@@ -7,7 +7,7 @@ i = 0
 p = int(input("How many iterations: "))
 
 while i < p:
-        i = i + 1
+        i += 1
 
         time.sleep(0.1)
         print(f"{x} iteration {i}")
